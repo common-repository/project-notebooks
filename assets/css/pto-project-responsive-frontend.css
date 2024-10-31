@@ -1,0 +1,105 @@
+@media (max-width:  1200px){
+	ul.projects-list-block > li {
+		width: calc(50% - 30px);
+	}
+
+	ul.pto-front-tabs li button h2, ul.pto-project-tabs li h2, ul.pto-front-tabs li button, ul.pto-project-tabs li {
+		font-size: 16px !important;
+		padding: 0 0 5px 0;
+	}
+
+	ul.pto-front-tabs li button, ul.pto-project-tabs li {
+		margin-right: 15px;
+	}
+	
+}
+
+@media (max-width: 980px){
+	.single-project-info h5 {
+		padding-top: 10px;
+		font-size: 14px;
+	}
+
+	.cust-field label {
+		font-size: 14px;
+	}
+
+	.wp-admin.pto-custom-style .task-kan-ban > div {
+		min-width: calc(25% - 20px);
+	}
+
+}
+
+@media (max-width: 767px){
+	ul.pto-front-tabs, ul.pto-project-tabs {
+		padding-right: 0;
+	}
+
+	.main-project-lists {
+		padding: 20px 15px;
+	}
+
+	.main-project-lists-row .projects-list {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.main-project-lists-row .search-projects-block {
+		width: 100%;
+		order: -1;
+		margin-bottom: 15px;
+	}
+
+	ul.pto-front-tabs li button h2, ul.pto-project-tabs li h2,
+	ul.pto-front-tabs li button, ul.pto-project-tabs li  {
+		font-size: 16px !important;
+		padding: 1px 4px;
+	}
+
+	ul.projects-list-block > li {
+		width: calc(100% - 30px);
+	}
+
+	.wp-admin.pto-custom-style .task-kan-ban > div{
+		min-width: calc(280px - 20px);
+	}
+
+	.projects-list-tab-row a.add-new-btn {
+		position: static;
+		transform: none;
+		margin-bottom: 10px;
+		text-align: center;
+		display: inline-block;
+		order: -1;
+		align-self: flex-end;
+	}
+
+	.projects-list-tab-row {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.pto-front-tabcontent p {
+		font-size: 14px;
+	}
+
+	.pto-project-design th h4 {
+		font-size: 16px;
+	}
+
+	h4.pto-header-four {
+		font-size: 16px !important;
+	}
+
+	h6.pto-header-six {
+		font-size: 16px !important;
+	}
+	.search-projects-block {
+		position: relative !important;
+		top: unset !important;
+		order: 1 !important;
+		margin-top: 20px;
+	}
+}

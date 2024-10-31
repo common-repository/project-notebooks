@@ -1,0 +1,1794 @@
+body{
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.pto-custom-style .row-actions span.inline {
+    display: none !important;
+}
+span.header-check {
+    display: inline-block;
+}
+
+span.sorting-indicator {
+    display: inline-block;
+}
+
+#pto-manager_table .sorting-indicator:before {
+    top: -10px;
+}
+div#target-div {
+    display: flex;
+}
+.postbox-container h2.hndle.ui-sortable-handle {display: inline-block;}
+.header-all-cpt-data, .header-publish-cpt-data,.header-trush-cpt-data {
+    cursor: pointer;
+    text-decoration: underline;
+    /*color: #6565f3 !important;*/
+    margin-right: 15px !important;
+}
+.pto-project-cpt-filter_action select,.pto-project-cpt-filter_action_month select {
+    padding: 0 0 0 7px !IMPORTANT;
+    min-height: 30px !important;
+    min-width: 121px !important;
+    line-height: 30px !important;
+}
+i.fa.fa-info-circle.fas-tooltip {cursor: pointer;}
+div#target-div div#screen-options-link-wrap {
+    display: none;
+}
+
+.pto-project-cpt-data-checkbox_input {
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 8%;
+}
+
+.pto-admin-setting-user-search {
+    float: right;
+}
+
+.pto-project-cpt-data-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pto_admin_username {
+    border: 1px solid #ccc;
+    padding: 10px !important;
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.pto_admin_username input{
+    margin-top: 0;
+    margin-right: 8px;
+}
+
+.pto_pm_user_search{
+    display: flex;
+    align-items: center;
+}
+
+.pto_user_name_admin{
+    margin-right: 10px;
+}
+
+.pto_admin_user_search {
+    justify-content: space-between;
+    display: flex;
+}
+
+div#target-div p.search-box {
+    display: none !important;
+}
+
+div#custom_meta_box-notes-input {
+    display: none !important;
+}
+
+ul.pto-project-user-section-title {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.pto-project-user-section-desc-details_user_name p,
+.pto-project-user-section-desc-details_user_name span {
+    margin: 0px 0 0 10px !important;
+}
+
+.pto-project-user-section-desc-details_user_name span{
+    font-size: 13px;
+}
+
+.pto-project-user-section-desc-details_user_name span a{
+    text-decoration: none;
+    color: #b32d2e;
+}
+
+ul.pto-project-user-section-title li:first-child {
+    width: 33%;
+    text-align: left;
+}
+
+ul.pto-project-user-section-title li:nth-child(2) {
+    width: 33%;
+    text-align: left;
+}
+
+ul.pto-project-user-section-title li:nth-child(3) {
+    width: 33%;
+    text-align: left;
+}
+
+.pto-project-user-section .pto-project-user-section-header-title ul {
+    border-radius: 0;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+    padding: 10px;
+    margin-top: 15px;
+    background: #ccc;
+}
+
+.pto-project-user-section .pto-project-user-section-header-title ul li{
+    margin-bottom: 0;
+}
+
+ul.pto-project-user-section-desc-details-ul li {
+    display: flex;
+    /*border-right: 1px solid;*/
+    padding: 5px 5px 5px 5px !important;
+    /*border-left: 1px solid;*/
+    margin: 0 !important;
+    border-bottom: 1px solid rgb(226,232,240);
+    align-items: center;
+}
+
+ul.pto-project-user-section-desc-details-ul li .pto-project-user-section_desc_details_login_name {
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+
+ul.pto-project-user-section-desc-details-ul li .pto-project-user-section-desc-details_user_image{
+    line-height: 0;
+}
+
+ul.pto-project-user-section-desc-details-ul li .pto-project-user-section_desc_details_user_name {
+    width: 33%;
+    text-align: left;
+}
+
+ul.pto-project-user-section-desc-details-ul li .pto-project-user-section_desc_details_user_email {
+    width: 33%;
+    text-align: left;
+}
+
+ul.pto-project-user-section-desc-details-ul li .pto-project-user-section_desc_details_login_data {
+    display: flex;
+    align-items: center;
+}
+
+ul.pto-project-user-section-desc-details-ul {
+    margin: 10px 0 0 0 !important;
+    border-radius: 5px;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+}
+
+/*ul.pto-project-user-section-desc-details-ul li:last-child {
+    border-bottom: 1px solid;
+    }*/
+
+    .pto_cpt_get_details_header {
+        display: flex;
+    }
+
+    .pto-cpt-header-data {
+        display: flex;
+        width: 100%;
+    }
+
+    .pto-cpt-header-data .pto_cpt_get_details_header_title_details {
+        width: 33%;
+    }
+
+    .pto_cpt_get_details_header_title_details_meta {
+        width: 33%;
+    }
+
+    .sorted.desc .pto_cpt_get_details_header_title_details_meta {
+        width: auto;
+    }
+
+    .pto_cpt_get_details_header_title {
+        display: flex;
+    }
+
+    .pto_cpt_get_details_header_title_checkbox {
+        width: 5%;
+    }
+
+    .cpt-single-record-details {
+        display: flex;
+    }
+
+    .pto_cpt_get_details_checkbox-cpt {
+        width: 5%;
+    }
+    .action-cpt-data {
+       display: flex;
+       align-items: center;
+       margin-top: 4px;
+       flex-wrap: wrap;
+   }
+
+   .action-checker {
+    width: 45%;
+}
+
+.pto-cpt-header-data .pto_cpt_get_details_header_title_details:first-child {
+    width: 45% !important;
+}
+
+/*.action-cpt-data span {
+    padding: 0 10px 0 0;
+    }*/
+
+/*.action-cpt-data span {
+    line-height: normal;
+    margin-right: 4px;
+    border-right: 1px solid #818080;
+    padding-right: 4px;
+    }*/
+
+/*.action-cpt-data span.trush-action {
+    color: red;
+    }*/
+
+    .cpt-single-record-details {
+        padding: 5px !important;
+    }
+
+    .swal-title {
+        font-size: 16px !important;
+        margin: 0 !important;
+        padding: 20px 0 0 20px !important;
+        text-align: left;
+    }
+
+    .swal-footer {
+        padding: 0 !important;
+        margin: 5px !important;
+    }
+
+    /*START COMMON MODAL CSS CODE*/
+
+    .pto-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #222f3ecf;
+        z-index: 0;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+
+    .pto-modal-open.pto-modal {
+        z-index: 9999;
+        opacity: 1;
+        visibility: visible;
+        display: flex !important;
+
+    }
+
+    .pto-modal .pto-modal-content {
+        max-width: 800px;
+        margin: 0 auto;
+        border: 1px solid #fff;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .pto-modal-container-header {
+        background-color: var(--white);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pto-modal-container-header span {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .pto-modal-container {
+        padding: 10px;
+        background-color: #fff !important;
+        border: 1px solid #ccc;
+    }
+
+    .pto-modal-container input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not([type="image"]),
+    .pto-modal-container input[type="email"],
+    .pto-modal-container input[type="password"] {
+        width: 100%;
+        height: 40px;
+        margin: 0;
+    }
+
+    .pto-modal-footer {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #ffffff;
+    }
+
+    .pto_data {
+        display: flex;
+    }
+
+    .pto-update-status-detail {
+        width: 45%;
+        margin: 4px 0;
+    }
+
+    .pto-update-status {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 5px 0;
+    }
+
+/*.pto-update-status-detail label,
+.pto-add-new-status label {
+    padding-left: 5px !important;
+    font-weight: bold;
+    }*/
+
+    span.attechment_name {
+        width: 100%;
+    }
+
+    .all_attechments {
+        display: grid;
+    }
+
+    /*END COMMON MODAL CSS CODE*/
+
+    /*START CUSTOM CODE*/
+
+    :root {
+        --primary: #222f3e;
+        --white: #fff;
+        --black: #000;
+        --f12: 12px;
+    }
+
+    .outline_btn {
+        padding: 5px 15px;
+        border: 1px solid var(--primary);
+        border-radius: 3px;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: var(--primary);
+        transition: all 0.3s ease;
+        font-size: var(--f12);
+        background-color: transparent;
+        display: inline-block;
+        line-height: normal !important;
+        padding: 10px 10px !important;
+    }
+
+    .outline_btn:hover {
+        color: var(--white);
+        background-color: var(--primary);
+    }
+
+    .heder-section {
+        padding-bottom: 15px;
+    }
+
+/*.header-all-cpt-data {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 15px;
+    color: var(--primary);
+    font-size: var(--f12);
+    }*/
+
+    .wp-admin.pto-custom-style .pto_cpt_get_details_header_title {
+        display: flex;
+        width: 100%;
+        padding: 5px !important;
+    }
+
+    .pto-project-tab-addnew-btn-block-header {
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+/*.wp-admin.pto-custom-style .action-cpt-data span a {
+    font-size: 14px !important;
+    display: block;
+    text-align: center;
+    color: #000;
+    position: relative;
+    }*/
+
+/*.wp-admin.pto-custom-style .action-cpt-data span a:before {
+    content: attr(data-title) !important;
+    position: absolute;
+    background: #000;
+    display: block;
+    color: #fff;
+    padding: 5px 5px;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+    width: max-content;
+    max-width: 120px;
+    line-height: normal;
+}
+
+.wp-admin.pto-custom-style .action-cpt-data span a:after {
+    content: "";
+    position: absolute;
+    border-width: 7px;
+    border-style: solid;
+    border-top-color: #000;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.wp-admin.pto-custom-style .action-cpt-data span a:hover:after,
+.wp-admin.pto-custom-style .action-cpt-data span a:hover:before{
+    opacity: 1;
+    visibility: visible;
+    }*/
+
+    .wp-admin.pto-custom-style .totla-budget > span {
+        padding-right: 5px;
+        white-space: nowrap;
+    }
+
+    .wp-admin.pto-custom-style .pto_budget_total {
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .wp-admin.pto-custom-style .task-status-details {
+        margin-bottom: 10px;
+    }
+
+    .wp-admin.pto-custom-style .sortable-data li {
+        margin: 0 5px 5px 5px;
+        padding: 5px;
+        font-size: 1.2em;
+        width: 120px;
+    }
+
+    .wp-admin.pto-custom-style .task-kan-ban {
+        
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+        margin: 0 -10px;
+    }
+
+    .pto-add-new-pm::-webkit-scrollbar,
+    .wp-admin.pto-custom-style .sortable-data ul::-webkit-scrollbar,
+    .wp-admin.pto-custom-style .task-kan-ban::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+  }
+
+  .pto-add-new-pm::-webkit-scrollbar-track,
+  .wp-admin.pto-custom-style .sortable-data ul::-webkit-scrollbar-track,
+  .wp-admin.pto-custom-style .task-kan-ban::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+
+
+  .pto-add-new-pm::-webkit-scrollbar-thumb,
+  .wp-admin.pto-custom-style .sortable-data ul::-webkit-scrollbar-thumb,
+  .wp-admin.pto-custom-style .task-kan-ban::-webkit-scrollbar-thumb {
+      background: #888;
+  }
+
+
+  .pto-add-new-pm::-webkit-scrollbar-thumb:hover,
+  .wp-admin.pto-custom-style .sortable-data ul::-webkit-scrollbar-thumb:hover,
+  .wp-admin.pto-custom-style .task-kan-ban::-webkit-scrollbar-thumb:hover {
+      background: #555;
+  }
+
+
+  .wp-admin.pto-custom-style .task-kan-ban > div {
+    margin: 10px 10px;
+    background: #f4f5f7;
+    min-height: 500px;
+    min-width: calc(20% - 20px);
+}
+
+.wp-admin.pto-custom-style .pto-admin-setting-user-search{
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-type-pto-project .wp-admin.pto-custom-style .pto-admin-setting-user-search .button {
+    margin-left: 0px;
+}
+/*END CUSTOM CODE*/
+
+.wp-admin.pto-custom-style span.plus-icon a {
+    text-decoration: none;
+    color: #fff;
+    background: #666;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    line-height: 13px;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+/*.single-pto-project .wp-list-table td input[type="checkbox"],
+.wp-admin.pto-custom-style .wp-list-table td input[type="checkbox"] {
+    margin: 0;
+    }*/
+
+    .wp-admin.pto-custom-style .wp-list-table .cpt-single-record-details {
+        padding: 0px !important;
+    }
+
+    .wp-admin.pto-custom-style .manage-status {
+        padding-bottom: 10px;
+    }
+
+    html body{
+        background-color: #f4f5fa;
+    }
+
+    .wp-admin.pto-custom-style .postbox {
+        border: 0;
+        box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .wp-admin.pto-custom-style .postbox-header {
+        border-bottom: 0;
+        margin-bottom: 0;
+        background: #dfe2e5;
+    }
+
+/*.single-pto-project table.wp-list-table,
+.wp-admin.pto-custom-style table.wp-list-table {
+    border: 1px solid #e3ebf3;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    }*/
+
+
+/*.single-pto-project table.wp-list-table td,
+.single-pto-project table.wp-list-table th,
+.wp-admin.pto-custom-style table.wp-list-table td,
+.wp-admin.pto-custom-style table.wp-list-table th {
+    border: 1px solid #e3ebf3;
+    }*/
+
+/*.single-pto-project table.striped tbody tr:nth-of-type(odd),
+.wp-admin.pto-custom-style table.striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(245,247,250,.5);
+    }*/
+
+/*.wp-admin.pto-custom-style .widefat thead td, .widefat thead th {
+    border-bottom: 1px solid #e2e8f0;
+    }*/
+
+    .wp-admin.pto-custom-style #poststuff #titlewrap {
+        position: relative;
+    }
+
+    /*.wp-admin.pto-custom-style #titlediv #title-prompt-text {*/
+    /*    padding: 0 0 0 14px;*/
+    /*    top: 50%;*/
+    /*    transform: translateY(-50%);*/
+    /*    z-index: 1;*/
+    /*    font-size: 18px;*/
+    /*}*/
+
+/*.wp-admin.pto-custom-style .widefat tfoot td,
+.wp-admin.pto-custom-style .widefat th,
+.wp-admin.pto-custom-style .widefat thead td {
+    font-size: 15px;
+}
+
+.wp-admin.pto-custom-style .widefat tfoot tr td,
+.wp-admin.pto-custom-style .widefat tfoot tr th,
+.wp-admin.pto-custom-style .widefat thead tr td,
+.wp-admin.pto-custom-style .widefat thead tr th {
+    font-weight: 600;
+}
+
+.wp-admin.pto-custom-style .widefat td,
+.wp-admin.pto-custom-style .widefat td ol,
+.wp-admin.pto-custom-style .widefat td p,
+.wp-admin.pto-custom-style .widefat td ul {
+    font-size: 16px;
+    }*/
+
+    .wp-admin.pto-custom-style .sortable-data ul {
+        width: 100%;
+        min-height: 200px;
+        list-style-type: none;
+        margin: 0;
+        padding: 2px 5px;
+        margin-right: 10px;
+        border-radius: 0;
+        background: #f4f5f7;
+        box-sizing: border-box;
+        border-top: 5px solid #fff;
+        margin-top: 0;
+        max-height: 500px;
+        overflow: auto;
+        white-space: initial;
+    }
+
+    .wp-admin.pto-custom-style .kanban-status-list .sortable-data .title {
+        font-size: 14px;
+        font-weight: 700;
+        flex-shrink: 0;
+        margin-bottom: 9px;
+        padding: 14px 10px 12px;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.3;
+        margin: 0;
+        color: #544d61;
+        text-transform: uppercase;
+        background-color: #EEEEEE;
+    }
+
+    .wp-admin.pto-custom-style .sortable-data ul > li p{
+        font-size: 16px;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .wp-admin.pto-custom-style .sortable-data ul > li {
+        margin: 5px 0;
+        width: auto;
+        cursor: move;
+        box-shadow: 0 1px 2px 0 rgba(9,30,66, 0.25);
+        padding: 10px;
+        border: 0;
+        background: #fff;
+    }
+
+    .wp-admin.pto-custom-style .sortable-data ul > li:last-child{
+        border-bottom: 0;
+    }
+
+/*.wp-admin.pto-custom-style .updates-table tbody td.check-column,
+.wp-admin.pto-custom-style .widefat tbody th.check-column,
+.wp-admin.pto-custom-style .widefat tfoot td.check-column,
+.wp-admin.pto-custom-style .widefat thead td.check-column {
+    padding: 8px 10px;
+    }*/
+
+/*.wp-admin.pto-custom-style #poststuff .stuffbox>h3,
+.wp-admin.pto-custom-style #poststuff h2,
+.wp-admin.pto-custom-style #poststuff h3.hndle {
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 0;
+    line-height: 1.4;
+    }*/
+
+    .wp-admin.pto-custom-style .postbox .inside {
+        padding: 20px;
+        line-height: 1.4;
+        font-size: 16px;
+        margin-top: 0 !important;
+    }
+
+    input[type=checkbox], input[type=radio]{
+        margin-top: 0px;
+    }
+
+/*.wp-admin.pto-custom-style input[type=checkbox] {
+    border-radius: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dfe2e5;
+    margin-top: 0;
+    position: relative;
+    }*/
+
+/*.wp-admin.pto-custom-style input[type=checkbox]:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 4px;
+    height: 9px;
+    border: solid #0079bf;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    }*/
+
+    .wp-admin.pto-custom-style #postbox-container-1 .postbox .inside{
+        font-size: 14px;
+    }
+
+/*.single-pto-project .wp-list-table thead,
+.wp-admin.pto-custom-style .wp-list-table thead {
+    background: #cdcdcd;
+    }*/
+
+    .wp-admin.pto-custom-style .wp-list-table .action-checker{
+        width: auto;
+    }
+
+    .wp-admin.pto-custom-style .pto_cpt_get_details_header_title_checkbox-cpt-title {
+        position: relative;
+    }
+
+/*.wp-admin.pto-custom-style .pto_cpt_get_details_header_title_checkbox-cpt-title .action-cpt-data {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    }   */
+
+/*.single-pto-project .widefat td,
+.single-pto-project .widefat th,
+.wp-admin.pto-custom-style .widefat td,
+.wp-admin.pto-custom-style .widefat th {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    }*/
+
+    .wp-admin.pto-custom-style span.plus-icon {
+        line-height: 0;
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    .align-items-center{
+        align-items: center;
+    }
+
+    .justify-content-between{
+        justify-content: space-between;
+    }
+
+
+    .wp-admin.pto-custom-style input[type=radio]:checked::before{
+        transform: scale(1);
+    }
+
+    .wp-admin.pto-custom-style input[type=radio]::before {
+        content: "";
+        border-radius: 50%;
+        width: .5rem;
+        height: .5rem;
+        margin: .1875rem;
+        background-color: #3582c4;
+        line-height: 1.14285714;
+        transform: scale(0);
+        transition: all 0.5s ease 0s;
+    }
+
+/*.wp-admin.pto-custom-style .updates-table td input,
+.wp-admin.pto-custom-style .widefat tfoot td input,
+.wp-admin.pto-custom-style .widefat th input,
+.wp-admin.pto-custom-style .widefat thead td input {
+    margin: 0;
+    }*/
+
+    .wp-admin.pto-custom-style .fixed .column-comments {
+        padding: 8px 8px;
+    }
+    .wp-admin.pto-custom-style .fixed .column-comments.sortable a, .fixed .column-comments.sorted a {
+        padding: 8px 8px;
+    }
+
+
+/*.wp-admin.pto-custom-style .tablenav {
+    clear: both;
+    height: auto;
+    padding-top: 5px;
+    vertical-align: middle;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.wp-admin.pto-custom-style .subsubsub {
+    margin-bottom: 15px;
+}
+
+.wp-admin.pto-custom-style .tablenav .one-page .displaying-num {
+    font-weight: bold;
+    font-size: 14px;
+    }*/
+
+/*.category-add input[type=text], .form-field input[type=email], .form-field input[type=number], .form-field input[type=password], .form-field input[type=search], .form-field input[type=tel], .form-field input[type=text], .form-field input[type=url], .form-field textarea {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05) !important;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 0 16px;
+    border-width: 1px;
+    --tw-border-opacity: 1 !important;
+    border-color: rgba(203,213,225,var(--tw-border-opacity))!important;
+
+    }*/
+
+/*.wp-admin.pto-custom-style .form-wrap label {
+    font-weight: bold;
+    font-size: 14px;
+    height: auto;
+    line-height: normal;
+    padding: 0 0 7px 0;
+}
+
+.wp-admin.pto-custom-style .col-wrap h2 {
+    font-size: 18px;
+}
+
+.wp-admin.pto-custom-style .form-wrap p,
+.wp-admin.pto-custom-style p.description,
+.wp-admin.pto-custom-style p.help,
+.wp-admin.pto-custom-style span.description {
+    font-size: 14px;
+}
+
+.wp-admin.pto-custom-style .category-add select {
+    line-height: 40px;
+}
+
+
+.cust-field.input-field input,
+.wp-admin.pto-custom-style input[type=search],
+.wp-admin.pto-custom-style .media-frame select,
+.wp-admin.pto-custom-style .wp-admin .media-frame select,
+.media-frame.mode-grid .wp-filter input[type=search],
+.wp-admin.pto-custom-style .wp-core-ui select,
+.wp-admin.pto-custom-style form select,
+.wp-admin.pto-custom-style form textarea,
+.wp-admin.pto-custom-style form input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="button"]),
+.wp-admin.pto-custom-style .pto-modal-container input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]):not([type="submit"]):not([type="reset"]):not([type="image"]):not([type="button"]) {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05) !important;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 4px 16px;
+    border-width: 1px;
+    --tw-border-opacity: 1 !important;
+    border-color: rgba(203,213,225,var(--tw-border-opacity)) !important;
+    }*/
+
+/*.wp-admin.pto-custom-style .media-frame select,
+.wp-admin.pto-custom-style .wp-admin .media-frame select,
+.wp-admin.pto-custom-style .wp-core-ui select,
+.wp-admin.pto-custom-style form select{
+    padding-right: 30px;
+    }*/
+
+/*.wrap a.page-title-action{
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 10px 10px !important;
+    border-radius: 3px;
+    }*/
+
+/*.wp-admin.pto-custom-style .button,
+.wp-admin.pto-custom-style .add_new,
+.wp-admin.pto-custom-style .wp-core-ui .button,
+.wp-admin.pto-custom-style form input[type="submit"],
+.wp-admin.pto-custom-style [type="reset"],
+.wp-admin.pto-custom-style [type="button"] {
+    min-height: 40px;
+    font-size: 15px;
+    line-height: 38px;
+}
+*/
+
+.wp-admin.pto-custom-style .media-frame.mode-grid .media-toolbar > div {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.wp-admin.pto-custom-style .media-toolbar.wp-filter .view-switch {
+    padding: 0;
+}
+
+.wp-admin.pto-custom-style .media-frame.mode-grid .media-toolbar {
+    padding: 10px 10px;
+}
+
+.wp-admin.pto-custom-style *{
+    box-sizing: border-box;
+}
+
+.wp-admin.pto-custom-style span#edit-slug-buttons {
+    display: inline-block;
+}
+
+.wp-admin.pto-custom-style #comment-link-box,
+.wp-admin.pto-custom-style #edit-slug-box{
+    display: flex;
+    align-items: center;
+}
+
+.wp-admin.pto-custom-style span#sample-permalink {
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.wp-admin.pto-custom-style .widefat tfoot td a,
+.wp-admin.pto-custom-style .widefat th a,
+.wp-admin.pto-custom-style .widefat thead td a{
+    padding: 0;
+}
+
+.project-pm-list-tbl th a{
+    color: #2c3338;
+}
+
+.wp-admin.pto-custom-style .totla-budget {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+}
+
+.wp-admin.pto-custom-style .edit-slug {
+    font-size: 0 !important;
+    min-height: auto;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wp-admin.pto-custom-style .edit-slug:before{
+    content: '\f044';
+    display: inline-block;
+    font: normal normal normal 14px /1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+.delete-btn{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    cursor: pointer;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.wp-admin.pto-custom-style #wp-content-editor-tools {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+
+.wp-admin.pto-custom-style #collapse-button .collapse-button-label{
+    top: 0;
+}
+
+.pto-admin-setting-email-system-shotcode-button {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+}
+
+.pto-admin-setting-email-system-shotcode-button p {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    background: #f7f7f7;
+    padding: 10px 10px;
+}
+
+.pto-project-setting-content-save {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.pto-admin-setting-user-details {
+    border: 0;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.pto-budget-items-type-item-value-input {
+    display: flex;
+    align-items: center;
+}
+
+label.pto-budget-items-type-item-value-label {
+    padding-right: 8px;
+}
+
+span#change-permalinks {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.pto-pto-budget-items-type-details_radios input {
+    margin-top: 0;
+}
+
+.pto-pto-budget-items-type-details_radios {
+    margin-bottom: 5px;
+}
+
+.pto-task-cpt-due-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pto-task-cpt-due-date-title {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pto-task-cpt-due-date-datepicker {
+    width: 100%;
+}
+
+.pto-task-cpt-due-date-timepicker input,
+.pto-task-cpt-due-date-datepicker input {
+    width: 100%;
+}
+
+.pto-task-cpt-due-date-timepicker {
+    width: 100%;
+}
+
+.pto-task-cpt-due-date-reminder {
+    width: 100%;
+}
+
+.pto-task-cpt-due-date > div {
+    padding-bottom: 10px;
+}
+
+.pto-task-cpt-due-date-reminder > .pto-task-cpt-due-date-reminder {
+    padding-bottom: 10px;
+}
+
+.pto-task-cpt-due-date-reminder-checkbox {
+    padding-left: 10px;
+}
+
+
+.pto-task-cpt-due-date-reminder-checkbox  > div {
+    padding-bottom: 5px;
+}
+
+.pto-task-cpt-due-date-reminder .due-date-custom {
+    padding-top: 10px;
+    font-size: 0;
+}
+
+.pto-task-cpt-due-date-reminder .due-date-custom > * {
+    display: inline-block !important;
+    width: auto;
+}
+
+.pto-task-cpt-due-date-reminder .due-date-custom input {
+    width: 60%;
+}
+
+.pto-task-cpt-due-date-reminder .due-date-custom select{
+    width: 38%;
+}
+
+.pto-task-cpt-status-radio {
+    padding-bottom: 5px;
+}
+
+.task-status-view {
+    text-transform: capitalize;
+}
+
+.completed{
+    color: #30F558;
+    text-transform: capitalize;
+}
+
+.not-started{
+    color: #573E7F;
+    text-transform: capitalize;
+}
+
+.overdue{
+    color: #FF0000;
+    text-transform: capitalize;
+}
+
+.pto-add-new-pm {
+    background: #fff;
+    max-height: 480px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.pto-modal-container-header span.w3-button {
+    cursor: pointer;
+}
+
+.pto_admin_user_search > div {
+    margin-right: 10px;
+}
+
+td.pto-cpt-actions {
+    width: 180px;
+}
+
+ul.pto-front-tabs::-webkit-scrollbar,
+ul.pto-project-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+ul.pto-front-tabs,
+ul.pto-project-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    /*border-bottom: 1px solid #D8DCDF;*/
+    padding-right: 110px;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+/*.front-primary-btn:hover{
+    border-color: #0078FD !important;
+    background-color: transparent !important;
+    color: #0078FD !important;
+}
+*/
+
+header.entry-header.alignwide {display: none;}
+.search-projects {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 15px 1px rgb(62 57 107 / 7%);
+}
+
+.search-projects h3 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+}
+
+.search-projects-form-box {
+    padding: 15px;
+}
+
+.cust-field {
+    margin: 0 0 15px 0;
+    float: none;
+}
+
+.cust-field label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: normal;
+    color: #000;
+} 
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=color]:focus,
+.site textarea:focus {
+    outline-offset: none !important;
+    outline: none !important;
+}
+
+.pto-project-cpt-filter {
+    display: flex;
+    align-items: center;
+}
+
+.pto-project-cpt-filter > div{
+    display: flex;
+    margin-right: 4px;
+}
+
+.pto-project-cpt-filter > div input {
+    width: auto !important;
+    min-width: 30px;
+    max-width: 80px;
+    padding: 0 7px !important;
+    text-align: center;
+    margin-left: 8px !important;
+}
+
+.pto-publish-tab-frontend {
+    padding-top: 10px;
+}
+
+.pto-project-cust-tab .pto-cpt-status {
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px 0 0 !important;
+    background: 0 0;
+    transition: all 0.5s ease 0s;
+    font-weight: normal;
+    border-right: 1px solid #ccc;
+    padding-right: 6px;
+    text-transform: capitalize;
+    color: #2271b1;
+}
+
+.pto-project-cust-tab .pto-cpt-status:last-child{
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0 !important;
+}
+
+.pto-project-cust-tab {
+    margin-right: 10px;
+    font-size: 0;
+}
+
+.pto-project-cust-tab .pto-cpt-status.active{
+    color: #000 !important;
+}
+
+/*.action-cpt-data span:last-child{
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+    }*/
+
+    body.wp-admin.pto-custom-style select#post_status {
+        margin-bottom: 10px;
+    }
+
+    .sorted.desc > div span::after,
+    .pto_cpt_get_details_header_title_details span::after {
+        content: "\f142";
+        font: normal 20px/1 dashicons;
+        speak: never;
+        display: inline-block;
+        padding: 0;
+        color: #3c434a;
+        position: relative;
+        vertical-align: top;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-decoration: none!important;
+        color: #3c434a;
+    }
+
+    .sorted.desc > div span:hover::after,
+    .pto_cpt_get_details_header_title_details span:hover::after {
+        transform: rotateX(180deg);
+    }
+
+    body.wp-admin.pto-custom-style div#authordiv{
+        display: none;
+    }
+
+    .button.button-danger{
+        color: #fff;
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+/*body.wp-admin.pto-custom-style .widefat .check-column {
+    width: 40px;
+    }*/
+
+    .site .button:focus,
+    button:focus,
+    input[type=submit]:focus,
+    input[type=reset]:focus,
+    .wp-block-search .wp-block-search__button:focus,
+    .wp-block-button .wp-block-button__link:focus,
+    .wp-block-file a.wp-block-file__button:focus {
+        outline-offset: unset !important;
+        outline: none !important;
+    }
+
+    .container{
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    /* Style the tab */
+    .pto-front-tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+  }
+
+  /* Style the buttons inside the tab */
+  .pto-front-tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+  }
+
+  /* Change background color of buttons on hover */
+  .pto-front-tab button:hover {
+      background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .pto-front-tab button.active {
+      background-color: #ccc;
+  }
+
+
+
+/*.action-cpt-data{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+    }*/
+
+/*.pto_cpt_get_details_header_title_checkbox-cpt:hover .action-cpt-data{
+    opacity: 1;
+    visibility: visible;
+    }*/
+
+    /* New Client Change Design Css */
+
+    th.sortable a span,
+    th.sorted a span {
+        float: left;
+        cursor: pointer;
+    }
+
+    .widefat th.sortable,
+    .widefat th.sorted {
+        padding: 8px;
+    }
+
+    .widefat th input[type="checkbox"], .widefat td input[type="checkbox"] {
+       margin-left: 0;
+       margin-top: 0;
+   }
+   .postbox-container .widefat td input[type="checkbox"] {
+       margin-left: 0;
+       margin-top: 3px;
+   }
+   .post-type-pto-project .set-project-due-date + .datepicker {
+       margin-top: 10px;
+   }
+   .post-type-pto-project .all_attechments .attechment_name {
+       margin-bottom: 10px;
+   }
+   input::-webkit-calendar-picker-indicator {
+    right: -10px;
+    position: absolute;
+    width: 78px;
+    height: 40px;
+    color: rgba(204, 204, 204, 0);
+    opacity: 0;
+}
+.pto-task-cpt-due-date-timepicker,
+.pto-task-cpt-due-date-datepicker{
+    position: relative;
+    padding-bottom: 0 !important;
+    margin-bottom: 10px;
+}
+.pto-task-cpt-due-date-timepicker:after {
+    position: absolute;
+    content: "\f017";
+    top: 50%;
+    right: 10px;
+    font-family: "FontAwesome";
+    font-size: 17px;
+    transform: translateY(-50%);
+}
+.pto-task-cpt-due-date-datepicker:after {
+    content: "\f133";
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    position: absolute;
+    font-weight: 900;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.pto-task-cpt-due-date-timepicker input {
+	clip-path: inset(0 27px 0 0);
+	outline: none;
+	border:none;
+}
+.pto-task-cpt-due-date-timepicker {
+    border-radius: 5px;
+    border: 1px solid #8c8f94;
+}
+
+
+.pto_data button.add_new {
+    margin-left: 10px;
+}
+
+.updates-table tbody td.check-column,
+.widefat tbody th.check-column,.widefat tfoot td.check-column,
+.widefat thead td.check-column {
+    padding: 11px 0 0 10px;
+}
+
+button.wp-switch-editor {
+    padding: 3px 8px 24px;
+}
+
+.row-actions span:last-child > span {
+    display: none;
+}
+
+span.hor-line {
+    margin-right: 3px;
+}
+
+.pto-modal-footer .delete-btn{
+    margin-left: 10px;
+}
+
+
+.project-request-list-tbl th#email .sorting-indicator{
+    display: none;
+}
+
+h3.pto-project-metting-list-single_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* last */
+.pto-heading-setting input[type="number"] {
+    width: 100px;
+}
+.pto-heading-button input,.pto-heading-setting input {
+    width: 100px;
+}
+.pto-heading-setting label {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 0px;
+    min-width: 220px;
+}
+
+.pto-setting-text-size div {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.pto-setting-text-size div h1 {
+    padding: 0 0 00px 0;
+    font-size: 18px;
+    min-width: 160px;
+    font-weight: 500;
+}
+
+.pto-button-text-size div {
+    width: 100%;
+}
+
+.pto-button-text-size div.pto-button-text-input{
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.pto-button-text-size div.pto-button-text-input label{
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 0px;
+    min-width: 220px;
+}
+
+.project_front-set {
+    display: flex;
+}
+
+.pto-heading-setting {
+    width: 100%;
+}
+
+.pto-heading-setting > div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.project_front-set {
+    width: 50% !important;
+    justify-content: space-between;
+}
+
+.project_front-set label {
+    width: 70%;
+}
+
+.attechment_name .remove_image{
+    margin-left: 10px;
+}
+
+.remove_image,
+.row-actions a.pm_delete,
+.delete-user a,
+.trush-action a {
+    color: #b32d2e;
+}
+
+td.manage-column.column-cb.check-column {
+    vertical-align: top;
+}
+
+.subsubsub a.current{
+    font-weight: normal !important;
+}
+
+.pto-project-filter-block-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pto-project-cpt-data-checkbox_input input {
+    margin-top: -4px;
+}
+
+#collapse-button .collapse-button-label {
+    padding: 8px 8px 8px 36px;
+}
+
+p:empty{
+    display: none;
+}
+
+/* //ashish  */
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.pto-planner-setting-tabs {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #cccc;
+    margin-bottom: 0;
+}
+
+.pto-planner-setting-tabs button {
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.pto-planner-setting-tabs button.active{
+    background-color: #2271b1;
+    color: #fff;
+}
+
+h1.pto-project-setting-header {
+    padding-bottom: 30px;
+}
+
+.pto-heading-setting > div.clear-all-button {
+    justify-content: left;
+    padding: 10px 0;
+}
+
+.pto-heading-setting > div.pto-setting-text-size {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+}
+
+.pto-project-font-setting-tab h1 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Start New Css 15-9-22 */ 
+
+.post-type-pto-project #poststuff a.add_new {
+    padding: 6px !important;
+    margin-bottom: 10px;
+}
+
+.post-type-pto-project .pto-admin-setting-user-search {
+    float: left;
+}
+
+.post-type-pto-project #poststuff button.add-pm-user{
+    padding: 6px !important;
+}
+
+.post-type-pto-project .pto-allow-user-permision {
+    margin-bottom: 10px;
+}
+
+.post-type-pto-project .updated
+{
+    display:none;
+}
+
+.post-type-pto-project #wpwrap a.page-title-action:before {
+    content: "\2b";
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #ffff; 
+}
+
+.post-type-pto-project #wpwrap a.page-title-action {
+    border: 1px solid #2271b1; 
+    background: #2271b1 !important; 
+    color: #ffff !important;
+    max-height: 30px;
+    display: inline-flex; 
+    align-items: center;
+    padding: 0 10px 0 20px !important;
+    height: 30px;
+}
+
+.post-type-pto-project .pto-admin-setting-user-create {
+    padding-bottom: 10px;
+}
+
+.post-type-pto-project .pto-admin-setting-user-search a.button.button-primary {
+    position: relative;
+    padding: 0 10px 0 20px;
+}
+
+.post-type-pto-project .pto-admin-setting-user-search a.button.button-primary:after {
+    content: "\2b";
+    font-weight: 700;
+    font-size: 17px;
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #ffff; 
+} 
+
+.post-type-pto-project .media-router .media-menu-item
+{
+    height: 36px;
+}
+
+.post-type-pto-project a.accepts-req:after {
+    display: none;
+}
+
+.post-type-pto-project a.accepts-req {
+    padding: 0 10px 0 10px !important;
+}
+
+/* End New Css 15-9-22 */  
